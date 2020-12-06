@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalabe=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="revisit-after" content="7 days" />
+    <meta name="theme-color" content="black" /> <!-- For Chrome, Firefox & Opera -->
+    <meta name="masapplication-navbutton-color" content="#000000" /> <!-- For Windows Phone -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> <!-- For iPhones -->
+    <meta name="copyright" content="Crome" />
+    <meta name="robots" content="all" />
+    <meta name="web_author" content="Sarthak Rohatgi" />
+    <meta name="discription" content="Local" />
+    <meta name="googlebot" content="noodp" />
+    <meta name="news_keywords" content="studio, google, hair, hairstudio, haircut, professional" />
+    <meta name="keywords"
+        content="crome, hairstudio, studio, Home, bhopal, Sarthak Rohatgi, html, css, artist, Madhya Pradesh, India" />
+    <meta name="description" content="Crome Hair Studio is all what you need for all hair solutions." />
+
+    <link rel="icon" type="image/png" href="../Assets/_icon.png" />
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+
+
+    <title>Crome | Emi Sen</title>
+</head>
+
+<body class="noScroll">
+    <section id="navigation">
+        <nav>
+            <ul>
+                <li><a class="to-close-home" href="../index.html#home">Home</a></li>
+                <li><a href="../services.html" class="to-close-services">Services</a></li>
+                <li><a class="to-close-ourTeam" href="../index.html#our-team">Our Team</a></li>
+                <li><a class="to-close-aboutUs" href="../index.html#about-us">About Us</a></li>
+                <li><a class="to-close-gallery" href="../gallery.html#gallery">Gallery</a></li>
+                <li><a class="to-close-feedback" href="../feedback.html#feedback">Feedback</a></li>
+                <li><a class="to-close-contactUs" href="../index.html#contact-us">Contact Us</a></li>
+                <li><a href="#"><img class="c-button" src="../Assets/cross.png" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="nav">
+            <a href="../index.html#home"><img class='logo' src="../Assets/logo.png" alt="Brand Logo"></a>
+            <a href="#"><img class='menu' src="../Assets/menu.png" alt="Menu Button"></a>
+        </div>
+    </section>
+
+    <section id="wrapper">
+        <div class="photo">
+            <img src="../Assets/team-photos/emi.jpg" alt="Emi Sen">
+            <h1>Emi Sen</h1>
+            <p class="profile-text">Emi Sen started his journey in 2015 and joined Crome in 2016. Since then he earned
+                his ecxpertise in <b><span class="bold">Hair Colouring</span></b> and <b><span
+                        class="bold">Beard</span></b>. He is often called as "Beard Expert" and is fairly popular among
+                kids and teenagers.<br><br>Emi was awarded as the best employee of the year in 2017, he holds two Loreal
+                certificate and he is the only one holding expertise certificate by Beardo.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2019 Crome Hair Studio. All rights reserved. <br> Site by <a
+                href="mailto:sarthakrohatgi012201@gmail.com"> Sarthak Rohatgi.</a></p>
+    </footer>
+
+    <script>
+        const navOpen = document.querySelector('.menu');
+
+        navOpen.addEventListener('click', _ => {
+            document.body.classList.add('nav-is-open')
+        })
+
+        navCloseCrossButton = document.querySelector('.c-button');
+
+        navCloseHome = document.querySelector('.to-close-home');
+
+        navCloseOurTeam = document.querySelector('.to-close-ourTeam');
+
+        navCloseGallery = document.querySelector('.to-close-gallery');
+
+        navCloseAboutUs = document.querySelector('.to-close-aboutUs');
+
+        navCloseFeedback = document.querySelector('.to-close-feedback');
+
+        navCloseContactUs = document.querySelector('.to-close-contactUs');
+
+        navCloseCrossButton.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseHome.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseOurTeam.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseGallery.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseAboutUs.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseFeedback.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseContactUs.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+    </script>
+</body>
+
+</html>

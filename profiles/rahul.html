@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalabe=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="revisit-after" content="7 days" />
+    <meta name="copyright" content="Crome" />
+    <meta name="theme-color" content="black" /> <!-- For Chrome, Firefox & Opera -->
+    <meta name="masapplication-navbutton-color" content="#000000" /> <!-- For Windows Phone -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> <!-- For iPhones -->
+    <meta name="robots" content="all" />
+    <meta name="web_author" content="Sarthak Rohatgi" />
+    <meta name="discription" content="Local" />
+    <meta name="googlebot" content="noodp" />
+    <meta name="news_keywords" content="studio, google, hair, hairstudio, haircut, professional" />
+    <meta name="keywords"
+        content="crome, hairstudio, studio, Home, bhopal, Sarthak Rohatgi, html, css, artist, Madhya Pradesh, India" />
+    <meta name="description" content="Crome Hair Studio is all what you need for all hair solutions." />
+
+    <link rel="icon" type="image/png" href="../Assets/_icon.png" />
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
+
+
+    <title>Crome | Rahul Sen</title>
+</head>
+
+<body class="noScroll">
+    <section id="navigation">
+        <nav>
+            <ul>
+                <li><a class="to-close-home" href="../index.html#home">Home</a></li>
+                <li><a href="../services.html" class="to-close-services">Services</a></li>
+                <li><a class="to-close-ourTeam" href="../index.html#our-team">Our Team</a></li>
+                <li><a class="to-close-aboutUs" href="../index.html#about-us">About Us</a></li>
+                <li><a class="to-close-gallery" href="../gallery.html#gallery">Gallery</a></li>
+                <li><a class="to-close-feedback" href="../feedback.html#feedback">Feedback</a></li>
+                <li><a class="to-close-contactUs" href="../index.html#contact-us">Contact Us</a></li>
+                <li><a href="#"><img class="c-button" src="../Assets/cross.png" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="nav">
+            <a href="../index.html#home"><img class='logo' src="../Assets/logo.png" alt="Brand Logo"></a>
+            <a href="#"><img class='menu' src="../Assets/menu.png" alt="Menu Button"></a>
+        </div>
+    </section>
+
+    <section id="wrapper">
+        <div class="photo">
+            <img src="../Assets/team-photos/rahul.jpg" alt="Rahul Sen">
+            <h1>Rahul Sen</h1>
+            <p class="profile-text">Rahul started Crome Hair Studio after getting fed of all the same old hair studios
+                in Bhopal and wanted to give something new to the people of Bhopal. He started cutting hair when he was
+                13 years old and been cutting hair for almost 13 years now. <br><br> He introduced many new techniques
+                and hairstyles in Bhopal including Dreadlock. Only two people have LOREAL's certificate in the whole
+                city and Rahul is one of them. He is officially sponsered by LOREAL. He has currently two hair studios
+                but is expanding everyday. <br><br>He came from nothing and made a name for himsef and his beloved hair
+                studio. Rahul loves Crome hair studio more than anything and devoted his whole life to it.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2019 Crome Hair Studio. All rights reserved. <br> Site by <a
+                href="mailto:sarthakrohatgi012201@gmail.com"> Sarthak Rohatgi.</a></p>
+    </footer>
+
+    <script>
+        const navOpen = document.querySelector('.menu');
+
+        navOpen.addEventListener('click', _ => {
+            document.body.classList.add('nav-is-open')
+        })
+
+        navCloseCrossButton = document.querySelector('.c-button');
+
+        navCloseHome = document.querySelector('.to-close-home');
+
+        navCloseOurTeam = document.querySelector('.to-close-ourTeam');
+
+        navCloseGallery = document.querySelector('.to-close-gallery');
+
+        navCloseAboutUs = document.querySelector('.to-close-aboutUs');
+
+        navCloseFeedback = document.querySelector('.to-close-feedback');
+
+        navCloseContactUs = document.querySelector('.to-close-contactUs');
+
+        navCloseCrossButton.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseHome.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseOurTeam.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseGallery.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseAboutUs.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseFeedback.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+
+        navCloseContactUs.addEventListener('click', _ => {
+            document.body.classList.remove('nav-is-open')
+        })
+    </script>
+</body>
+
+</html>
