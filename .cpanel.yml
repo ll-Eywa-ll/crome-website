@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/cromvfam/public_html/
     - /bin/cp -R Assets $DEPLOYPATH
     - /bin/cp -R profiles $DEPLOYPATH
+    - /bin/cp -R . $DEPLOYPATH
